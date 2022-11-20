@@ -6,6 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.axi{
+  display: block;
+}
+.menice{
+  background-color:rgba(169, 173, 177, 0.349); 
+  position: absolute;
+  height: 200px;
+  top: 200px;
+  right: 500px;
+  text-align: center;
+  border: 15px solid rgb(165, 151, 151);
+  
+
+  
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

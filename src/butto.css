@@ -1,0 +1,69 @@
+
+.fet{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(211, 211, 216);
+    height: 300px;
+    width: 250px;
+    
+  }
+  #name{
+    background-color: rgb(74, 199, 199);
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+  }
+  #email{
+    background-color: rgb(74, 199, 199);
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+  }
+  #password{
+    background-color: rgb(74, 199, 199);
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+  }
+  .ava{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/src/br.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #bre{
+    margin-top: 25px;
+    background-color: rgb(34, 255, 207);
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-bottom: 15px;
+  }
+  #bre:hover{
+    box-shadow: 10px 13px 30px #8e8f8f, -10px -13px 30px rgb(99, 98, 98);}

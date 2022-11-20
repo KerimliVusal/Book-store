@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(17, 52, 66);
+  }
+  
+  .nav_box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 60px;
+  }
+  .my_shop {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+  }
+  .cart {
+    cursor: pointer;
+  }
+  .cart span:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+  }
+  .cart span:nth-child(2) {
+    padding: 0 3px;
+    background-color: rgb(88, 46, 155);
+    color: white;
+    font-weight: bolx;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  article {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .cart_box img {
+    width: 50px;
+    height: 50px;
+  }
+  .cart_img {
+    display: flex;
+    width: 400px;
+  }
+  
+  .cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(27, 43, 49);
+    padding-bottom: 5px;
+  }
+  
+  .cart_box div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .cart_box div:nth-child(3) button {
+    padding: 8px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(29, 167, 221);
+    cursor: pointer;
+  }
+  .cart_box div:nth-child(3) button:hover {
+    background-color: rgb(19, 166, 202);
+  }
+  .cart_box div:nth-child(3) span {
+    background-color: rgba(191, 211, 9, 0.993);
+    padding: 3px 10px 8px 10px;
+    margin-right: 10px;
+  
+  }
+  #total{
+    border-bottom: 2px solid rgb(27, 43, 49);
+    color:rgb(35, 35, 68);
+    margin-top:30px;
+  }
+  #siz{
+    background-color: red;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total span:nth-child(1) {
+    font-size: 2rem;
+    color: rgb(15, 71, 94);
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .total span:nth-child(2) {
+    font-size: 2rem;
+    color: rgb(231, 235, 231);
+    font-weight: 24px;
+    background-color: blue;
+    font-family: cursive;
+    padding:10px 10px;
+    margin-top: 20px;
+    
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  .cards {
+    width: 250px;
+    padding: 20px;
+  }
+  .cards:hover {
+    box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  .image_box img {
+    width: 150px;
+    height: 200px;
+  }
+  
+  .image_box img {
+    width: 150px;
+    height: 200px;
+  }
+  .details p:nth-child(1) {
+    font-weight: bold;
+  }
+  .details p:nth-child(2) {
+    color: grey;
+    font-size: 0.8rem;
+  }
+  .details p:nth-child(3) {
+    font-weight: bolx;
+    color: grey;
+  }
+  .details button {
+    padding: 10px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(22, 128, 170);
+    outline: none;
+    color:antiquewhite;
+    font-size: 17px;
+  }
+  #rs{
+    border: 2px solid black ;
+  }
+  label{
+    color:antiquewhite;
+    
+  }
+  #filter{
+    color:black;
+    padding:0px 0px 0px 10px;
+    font-size: 22px;
+  }
+  #input{
+    position:absolute;
+    right:10px;
+  }
+  #input input{
+  outline: none;
+  padding:4px;
+  width: 0px;
+  border:1px solid black;
+  transition: 2s linear;
+  visibility: hidden;
+  }
+  #input:hover input{
+    visibility: visible;
+    width: 100px;
+    outline: none;
+    border-radius: 10px;
+
+  }
+  .loader{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 62, 129);
+  }
+  button:hover{
+    background-color: rgb(10, 110, 110);
+  }
